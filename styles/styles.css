@@ -1,0 +1,76 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #9DBEBB;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0.1em;
+}
+.card {
+    position: relative;
+    max-width: 954px;
+    width: 100%;
+    min-height: 594px;
+    background-color: #BE0909;
+    box-shadow: 0px 0px 32px #000000;
+}
+.card > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+p {
+
+}
+.form {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-items: start;
+    z-index: 2;
+    max-width: 400px;
+    width: 100%;
+    min-height: 466px;
+    margin-left: 65px;
+}
+button {
+    align-self: center;
+    padding: 13px 24px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 0.1em;
+    text-align: center;
+    background-color: #468189;
+    border-radius: 30px;
+    border: solid #468189;
+    box-shadow: 0px 0px 12px #000000;
+}
+button:hover {
+    background-color: #5cafba;
+    box-shadow: 0px 0px 12px #FFFFFF;
+}
+
+img {
+    position: absolute;
+    right: -51px;
+    bottom: -61px;
+    z-index: 1;
+    max-width: 663px;
+    width: 100%;
+    min-height: 603px;
+}
+.orange-background {
+    max-width: 345px;
+    width: 100%;
+    min-height: 594px;
+    background-color: #FFB039;
+}
