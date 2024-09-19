@@ -63,9 +63,13 @@ input {
     width: 100%;
     min-height: 51px;
     background-color: transparent;
+    border-radius: 5px;
     border-style: none none solid none;
     border-color: #9DBEBB;
     border-width: 1px;
+}
+input:hover, input:focus {
+    background-color: #e41717;
 }
 ::placeholder {
     color: #FFFFFF;
